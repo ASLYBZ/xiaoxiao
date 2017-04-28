@@ -15,6 +15,23 @@
 		2D8477B21EAF851A00E0F9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D8477B01EAF851A00E0F9EE /* LaunchScreen.storyboard */; };
 		2D8477BD1EAF851A00E0F9EE /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8477BC1EAF851A00E0F9EE /* ___Tests.m */; };
 		2D8477C81EAF851A00E0F9EE /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8477C71EAF851A00E0F9EE /* ___UITests.m */; };
+		2D8477DC1EAF9AF000E0F9EE /* default_menu12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8477D71EAF9AF000E0F9EE /* default_menu12.png */; };
+		2D8477DD1EAF9AF000E0F9EE /* default_menu22.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8477D81EAF9AF000E0F9EE /* default_menu22.png */; };
+		2D8477E41EAF9B3700E0F9EE /* tabbar_gray1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8477E11EAF9B3700E0F9EE /* tabbar_gray1@2x.png */; };
+		2D8477E51EAF9B3700E0F9EE /* tabbar_gray2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8477E21EAF9B3700E0F9EE /* tabbar_gray2@2x.png */; };
+		2D8477E61EAF9B3700E0F9EE /* tabbar_gray3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8477E31EAF9B3700E0F9EE /* tabbar_gray3@2x.png */; };
+		2D8477EA1EAF9C2100E0F9EE /* tabbar_select1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8477E71EAF9C2100E0F9EE /* tabbar_select1@2x.png */; };
+		2D8477EB1EAF9C2100E0F9EE /* tabbar_select2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8477E81EAF9C2100E0F9EE /* tabbar_select2@2x.png */; };
+		2D8477EC1EAF9C2100E0F9EE /* tabbar_select3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8477E91EAF9C2100E0F9EE /* tabbar_select3@2x.png */; };
+		2D8477F31EB24E0B00E0F9EE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8477F21EB24E0B00E0F9EE /* BaseViewController.m */; };
+		2D8477F61EB24E1D00E0F9EE /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8477F51EB24E1D00E0F9EE /* MeViewController.m */; };
+		2D8477FE1EB24FE300E0F9EE /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8477F91EB24FE300E0F9EE /* libWeChatSDK.a */; };
+		2D8477FF1EB24FE300E0F9EE /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D8477FA1EB24FE300E0F9EE /* README.txt */; };
+		2D8478021EB2505800E0F9EE /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8478011EB2505800E0F9EE /* libc++.tbd */; };
+		2D8478041EB2506100E0F9EE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8478031EB2506100E0F9EE /* libz.tbd */; };
+		2D8478061EB2506F00E0F9EE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8478051EB2506F00E0F9EE /* libsqlite3.0.tbd */; };
+		2D8478081EB2507500E0F9EE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8478071EB2507500E0F9EE /* SystemConfiguration.framework */; };
+		2D84780A1EB2507E00E0F9EE /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8478091EB2507E00E0F9EE /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +68,28 @@
 		2D8477C31EAF851A00E0F9EE /* 小小医UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "小小医UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D8477C71EAF851A00E0F9EE /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		2D8477C91EAF851A00E0F9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D8477D71EAF9AF000E0F9EE /* default_menu12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_menu12.png; sourceTree = "<group>"; };
+		2D8477D81EAF9AF000E0F9EE /* default_menu22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_menu22.png; sourceTree = "<group>"; };
+		2D8477E11EAF9B3700E0F9EE /* tabbar_gray1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_gray1@2x.png"; sourceTree = "<group>"; };
+		2D8477E21EAF9B3700E0F9EE /* tabbar_gray2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_gray2@2x.png"; sourceTree = "<group>"; };
+		2D8477E31EAF9B3700E0F9EE /* tabbar_gray3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_gray3@2x.png"; sourceTree = "<group>"; };
+		2D8477E71EAF9C2100E0F9EE /* tabbar_select1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_select1@2x.png"; sourceTree = "<group>"; };
+		2D8477E81EAF9C2100E0F9EE /* tabbar_select2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_select2@2x.png"; sourceTree = "<group>"; };
+		2D8477E91EAF9C2100E0F9EE /* tabbar_select3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_select3@2x.png"; sourceTree = "<group>"; };
+		2D8477F11EB24E0B00E0F9EE /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		2D8477F21EB24E0B00E0F9EE /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		2D8477F41EB24E1D00E0F9EE /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		2D8477F51EB24E1D00E0F9EE /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		2D8477F91EB24FE300E0F9EE /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		2D8477FA1EB24FE300E0F9EE /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		2D8477FB1EB24FE300E0F9EE /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		2D8477FC1EB24FE300E0F9EE /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		2D8477FD1EB24FE300E0F9EE /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		2D8478011EB2505800E0F9EE /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2D8478031EB2506100E0F9EE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2D8478051EB2506F00E0F9EE /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		2D8478071EB2507500E0F9EE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2D8478091EB2507E00E0F9EE /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +97,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D84780A1EB2507E00E0F9EE /* CoreTelephony.framework in Frameworks */,
+				2D8478081EB2507500E0F9EE /* SystemConfiguration.framework in Frameworks */,
+				2D8478061EB2506F00E0F9EE /* libsqlite3.0.tbd in Frameworks */,
+				2D8478041EB2506100E0F9EE /* libz.tbd in Frameworks */,
+				2D8478021EB2505800E0F9EE /* libc++.tbd in Frameworks */,
+				2D8477FE1EB24FE300E0F9EE /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +130,7 @@
 				2D8477BB1EAF851A00E0F9EE /* 小小医Tests */,
 				2D8477C61EAF851A00E0F9EE /* 小小医UITests */,
 				2D8477A01EAF851A00E0F9EE /* Products */,
+				2D8478001EB2505800E0F9EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +147,20 @@
 		2D8477A11EAF851A00E0F9EE /* 小小医 */ = {
 			isa = PBXGroup;
 			children = (
+				2D8477F71EB24FD700E0F9EE /* lib */,
+				2D8477ED1EAF9D1000E0F9EE /* 按地区找医生 */,
+				2D8477EE1EAF9D1000E0F9EE /* 按排行找医生 */,
+				2D8477EF1EAF9D1000E0F9EE /* 个人中心 */,
+				2D8477F01EAF9D1000E0F9EE /* common */,
+				2D8477D51EAF9AF000E0F9EE /* images */,
 				2D8477A51EAF851A00E0F9EE /* AppDelegate.h */,
 				2D8477A61EAF851A00E0F9EE /* AppDelegate.m */,
 				2D8477A81EAF851A00E0F9EE /* ViewController.h */,
 				2D8477A91EAF851A00E0F9EE /* ViewController.m */,
+				2D8477F11EB24E0B00E0F9EE /* BaseViewController.h */,
+				2D8477F21EB24E0B00E0F9EE /* BaseViewController.m */,
+				2D8477F41EB24E1D00E0F9EE /* MeViewController.h */,
+				2D8477F51EB24E1D00E0F9EE /* MeViewController.m */,
 				2D8477AB1EAF851A00E0F9EE /* Main.storyboard */,
 				2D8477AE1EAF851A00E0F9EE /* Assets.xcassets */,
 				2D8477B01EAF851A00E0F9EE /* LaunchScreen.storyboard */,
@@ -138,6 +194,89 @@
 				2D8477C91EAF851A00E0F9EE /* Info.plist */,
 			);
 			path = "小小医UITests";
+			sourceTree = "<group>";
+		};
+		2D8477D51EAF9AF000E0F9EE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2D8477D61EAF9AF000E0F9EE /* tabbar */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		2D8477D61EAF9AF000E0F9EE /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				2D8477E71EAF9C2100E0F9EE /* tabbar_select1@2x.png */,
+				2D8477E81EAF9C2100E0F9EE /* tabbar_select2@2x.png */,
+				2D8477E91EAF9C2100E0F9EE /* tabbar_select3@2x.png */,
+				2D8477E11EAF9B3700E0F9EE /* tabbar_gray1@2x.png */,
+				2D8477E21EAF9B3700E0F9EE /* tabbar_gray2@2x.png */,
+				2D8477E31EAF9B3700E0F9EE /* tabbar_gray3@2x.png */,
+				2D8477D71EAF9AF000E0F9EE /* default_menu12.png */,
+				2D8477D81EAF9AF000E0F9EE /* default_menu22.png */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		2D8477ED1EAF9D1000E0F9EE /* 按地区找医生 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "按地区找医生";
+			sourceTree = "<group>";
+		};
+		2D8477EE1EAF9D1000E0F9EE /* 按排行找医生 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "按排行找医生";
+			sourceTree = "<group>";
+		};
+		2D8477EF1EAF9D1000E0F9EE /* 个人中心 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "个人中心";
+			sourceTree = "<group>";
+		};
+		2D8477F01EAF9D1000E0F9EE /* common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		2D8477F71EB24FD700E0F9EE /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				2D8477F81EB24FD700E0F9EE /* weixin */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		2D8477F81EB24FD700E0F9EE /* weixin */ = {
+			isa = PBXGroup;
+			children = (
+				2D8477F91EB24FE300E0F9EE /* libWeChatSDK.a */,
+				2D8477FA1EB24FE300E0F9EE /* README.txt */,
+				2D8477FB1EB24FE300E0F9EE /* WechatAuthSDK.h */,
+				2D8477FC1EB24FE300E0F9EE /* WXApi.h */,
+				2D8477FD1EB24FE300E0F9EE /* WXApiObject.h */,
+			);
+			path = weixin;
+			sourceTree = "<group>";
+		};
+		2D8478001EB2505800E0F9EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D8478091EB2507E00E0F9EE /* CoreTelephony.framework */,
+				2D8478071EB2507500E0F9EE /* SystemConfiguration.framework */,
+				2D8478051EB2506F00E0F9EE /* libsqlite3.0.tbd */,
+				2D8478031EB2506100E0F9EE /* libz.tbd */,
+				2D8478011EB2505800E0F9EE /* libc++.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +389,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D8477B21EAF851A00E0F9EE /* LaunchScreen.storyboard in Resources */,
+				2D8477EB1EAF9C2100E0F9EE /* tabbar_select2@2x.png in Resources */,
+				2D8477E61EAF9B3700E0F9EE /* tabbar_gray3@2x.png in Resources */,
+				2D8477DC1EAF9AF000E0F9EE /* default_menu12.png in Resources */,
 				2D8477AF1EAF851A00E0F9EE /* Assets.xcassets in Resources */,
+				2D8477EA1EAF9C2100E0F9EE /* tabbar_select1@2x.png in Resources */,
+				2D8477DD1EAF9AF000E0F9EE /* default_menu22.png in Resources */,
 				2D8477AD1EAF851A00E0F9EE /* Main.storyboard in Resources */,
+				2D8477E41EAF9B3700E0F9EE /* tabbar_gray1@2x.png in Resources */,
+				2D8477E51EAF9B3700E0F9EE /* tabbar_gray2@2x.png in Resources */,
+				2D8477FF1EB24FE300E0F9EE /* README.txt in Resources */,
+				2D8477EC1EAF9C2100E0F9EE /* tabbar_select3@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +425,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D8477AA1EAF851A00E0F9EE /* ViewController.m in Sources */,
+				2D8477F31EB24E0B00E0F9EE /* BaseViewController.m in Sources */,
 				2D8477A71EAF851A00E0F9EE /* AppDelegate.m in Sources */,
 				2D8477A41EAF851A00E0F9EE /* main.m in Sources */,
+				2D8477F61EB24E1D00E0F9EE /* MeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +580,14 @@
 				DEVELOPMENT_TEAM = 2NKGXFLX4U;
 				INFOPLIST_FILE = "小小医/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/小小医/lib/weixin",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dianshang.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -442,6 +600,14 @@
 				DEVELOPMENT_TEAM = 2NKGXFLX4U;
 				INFOPLIST_FILE = "小小医/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/小小医/lib/weixin",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dianshang.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -516,6 +682,7 @@
 				2D8477CE1EAF851A00E0F9EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D8477CF1EAF851A00E0F9EE /* Build configuration list for PBXNativeTarget "小小医Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +691,7 @@
 				2D8477D11EAF851A00E0F9EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D8477D21EAF851A00E0F9EE /* Build configuration list for PBXNativeTarget "小小医UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +700,7 @@
 				2D8477D41EAF851A00E0F9EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

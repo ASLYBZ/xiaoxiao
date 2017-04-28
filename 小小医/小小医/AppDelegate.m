@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "WXApi.h"
+#import "WechatAuthSDK.h"
+
 
 @interface AppDelegate ()
 
@@ -17,8 +20,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    
+    //向微信注册应用。
+    [WXApi registerApp:@"wxb4ba3c02aa476ea1"];
+
+  
     return YES;
 }
+
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
