@@ -32,6 +32,15 @@
 		2D8478061EB2506F00E0F9EE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8478051EB2506F00E0F9EE /* libsqlite3.0.tbd */; };
 		2D8478081EB2507500E0F9EE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8478071EB2507500E0F9EE /* SystemConfiguration.framework */; };
 		2D84780A1EB2507E00E0F9EE /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8478091EB2507E00E0F9EE /* CoreTelephony.framework */; };
+		2DBDAA161EB36BA1007990A8 /* DFUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDAA151EB36BA1007990A8 /* DFUtils.m */; };
+		2DBDAA3F1EB3700A007990A8 /* CALayer+BorderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDAA291EB3700A007990A8 /* CALayer+BorderColor.m */; };
+		2DBDAA421EB3700A007990A8 /* NSString+date.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDAA2F1EB3700A007990A8 /* NSString+date.m */; };
+		2DBDAA431EB3700A007990A8 /* NSString+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDAA311EB3700A007990A8 /* NSString+Extend.m */; };
+		2DBDAA441EB3700A007990A8 /* UIButton+ChangeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDAA341EB3700A007990A8 /* UIButton+ChangeFont.m */; };
+		2DBDAA451EB3700A007990A8 /* UIImage+ColorToImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDAA361EB3700A007990A8 /* UIImage+ColorToImage.m */; };
+		2DBDAA461EB3700A007990A8 /* UILabel+ChangeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDAA381EB3700A007990A8 /* UILabel+ChangeFont.m */; };
+		2DBDAA481EB3700A007990A8 /* UIView+MyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDAA3C1EB3700A007990A8 /* UIView+MyAnimation.m */; };
+		2DBDAA491EB3700A007990A8 /* UIView+ShowAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBDAA3E1EB3700A007990A8 /* UIView+ShowAlert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +99,26 @@
 		2D8478051EB2506F00E0F9EE /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		2D8478071EB2507500E0F9EE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2D8478091EB2507E00E0F9EE /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		2DBDAA131EB36B6C007990A8 /* CommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		2DBDAA141EB36BA1007990A8 /* DFUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFUtils.h; sourceTree = "<group>"; };
+		2DBDAA151EB36BA1007990A8 /* DFUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFUtils.m; sourceTree = "<group>"; };
+		2DBDAA281EB3700A007990A8 /* CALayer+BorderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+BorderColor.h"; sourceTree = "<group>"; };
+		2DBDAA291EB3700A007990A8 /* CALayer+BorderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+BorderColor.m"; sourceTree = "<group>"; };
+		2DBDAA2E1EB3700A007990A8 /* NSString+date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+date.h"; sourceTree = "<group>"; };
+		2DBDAA2F1EB3700A007990A8 /* NSString+date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+date.m"; sourceTree = "<group>"; };
+		2DBDAA301EB3700A007990A8 /* NSString+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extend.h"; sourceTree = "<group>"; };
+		2DBDAA311EB3700A007990A8 /* NSString+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extend.m"; sourceTree = "<group>"; };
+		2DBDAA321EB3700A007990A8 /* SwizzlingExchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzlingExchange.h; sourceTree = "<group>"; };
+		2DBDAA331EB3700A007990A8 /* UIButton+ChangeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ChangeFont.h"; sourceTree = "<group>"; };
+		2DBDAA341EB3700A007990A8 /* UIButton+ChangeFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ChangeFont.m"; sourceTree = "<group>"; };
+		2DBDAA351EB3700A007990A8 /* UIImage+ColorToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorToImage.h"; sourceTree = "<group>"; };
+		2DBDAA361EB3700A007990A8 /* UIImage+ColorToImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorToImage.m"; sourceTree = "<group>"; };
+		2DBDAA371EB3700A007990A8 /* UILabel+ChangeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChangeFont.h"; sourceTree = "<group>"; };
+		2DBDAA381EB3700A007990A8 /* UILabel+ChangeFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChangeFont.m"; sourceTree = "<group>"; };
+		2DBDAA3B1EB3700A007990A8 /* UIView+MyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MyAnimation.h"; sourceTree = "<group>"; };
+		2DBDAA3C1EB3700A007990A8 /* UIView+MyAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MyAnimation.m"; sourceTree = "<group>"; };
+		2DBDAA3D1EB3700A007990A8 /* UIView+ShowAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ShowAlert.h"; sourceTree = "<group>"; };
+		2DBDAA3E1EB3700A007990A8 /* UIView+ShowAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ShowAlert.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +176,7 @@
 		2D8477A11EAF851A00E0F9EE /* 小小医 */ = {
 			isa = PBXGroup;
 			children = (
+				2DBDAA271EB3700A007990A8 /* Categroy */,
 				2D8477F71EB24FD700E0F9EE /* lib */,
 				2D8477ED1EAF9D1000E0F9EE /* 按地区找医生 */,
 				2D8477EE1EAF9D1000E0F9EE /* 按排行找医生 */,
@@ -243,6 +273,9 @@
 		2D8477F01EAF9D1000E0F9EE /* common */ = {
 			isa = PBXGroup;
 			children = (
+				2DBDAA131EB36B6C007990A8 /* CommonDefine.h */,
+				2DBDAA141EB36BA1007990A8 /* DFUtils.h */,
+				2DBDAA151EB36BA1007990A8 /* DFUtils.m */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -277,6 +310,38 @@
 				2D8478011EB2505800E0F9EE /* libc++.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DBDAA271EB3700A007990A8 /* Categroy */ = {
+			isa = PBXGroup;
+			children = (
+				2DBDAA4A1EB3709A007990A8 /* 全局修改字体 */,
+				2DBDAA281EB3700A007990A8 /* CALayer+BorderColor.h */,
+				2DBDAA291EB3700A007990A8 /* CALayer+BorderColor.m */,
+				2DBDAA2E1EB3700A007990A8 /* NSString+date.h */,
+				2DBDAA2F1EB3700A007990A8 /* NSString+date.m */,
+				2DBDAA301EB3700A007990A8 /* NSString+Extend.h */,
+				2DBDAA311EB3700A007990A8 /* NSString+Extend.m */,
+				2DBDAA351EB3700A007990A8 /* UIImage+ColorToImage.h */,
+				2DBDAA361EB3700A007990A8 /* UIImage+ColorToImage.m */,
+				2DBDAA3B1EB3700A007990A8 /* UIView+MyAnimation.h */,
+				2DBDAA3C1EB3700A007990A8 /* UIView+MyAnimation.m */,
+				2DBDAA3D1EB3700A007990A8 /* UIView+ShowAlert.h */,
+				2DBDAA3E1EB3700A007990A8 /* UIView+ShowAlert.m */,
+			);
+			path = Categroy;
+			sourceTree = "<group>";
+		};
+		2DBDAA4A1EB3709A007990A8 /* 全局修改字体 */ = {
+			isa = PBXGroup;
+			children = (
+				2DBDAA321EB3700A007990A8 /* SwizzlingExchange.h */,
+				2DBDAA371EB3700A007990A8 /* UILabel+ChangeFont.h */,
+				2DBDAA381EB3700A007990A8 /* UILabel+ChangeFont.m */,
+				2DBDAA331EB3700A007990A8 /* UIButton+ChangeFont.h */,
+				2DBDAA341EB3700A007990A8 /* UIButton+ChangeFont.m */,
+			);
+			name = "全局修改字体";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -424,11 +489,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DBDAA421EB3700A007990A8 /* NSString+date.m in Sources */,
 				2D8477AA1EAF851A00E0F9EE /* ViewController.m in Sources */,
+				2DBDAA491EB3700A007990A8 /* UIView+ShowAlert.m in Sources */,
+				2DBDAA3F1EB3700A007990A8 /* CALayer+BorderColor.m in Sources */,
+				2DBDAA451EB3700A007990A8 /* UIImage+ColorToImage.m in Sources */,
 				2D8477F31EB24E0B00E0F9EE /* BaseViewController.m in Sources */,
 				2D8477A71EAF851A00E0F9EE /* AppDelegate.m in Sources */,
+				2DBDAA431EB3700A007990A8 /* NSString+Extend.m in Sources */,
+				2DBDAA461EB3700A007990A8 /* UILabel+ChangeFont.m in Sources */,
+				2DBDAA161EB36BA1007990A8 /* DFUtils.m in Sources */,
 				2D8477A41EAF851A00E0F9EE /* main.m in Sources */,
+				2DBDAA441EB3700A007990A8 /* UIButton+ChangeFont.m in Sources */,
 				2D8477F61EB24E1D00E0F9EE /* MeViewController.m in Sources */,
+				2DBDAA481EB3700A007990A8 /* UIView+MyAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
